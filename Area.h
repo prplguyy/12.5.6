@@ -7,6 +7,7 @@ class Area {
 		virtual ~Area();
 		void getColor() const;
 		virtual double calcArea() const = 0;
+		virtual double calcPerimeter() const = 0;
 	private:
 		char color[11];
 };

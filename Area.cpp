@@ -17,5 +17,10 @@ void Area::getColor() const {
 
 double Area::calcArea() const {
 	std::cout << "calcArea ...";
-	// 
+	return 0;
+}
+
+double Area::calcPerimeter() const {
+	std::cout << "calcPerimeter ...";
+	return 0;
 }

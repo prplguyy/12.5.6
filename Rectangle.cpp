@@ -11,10 +11,10 @@ Rectangle::~Rectangle() {
 
 double Rectangle::calcArea() const {
 	std::cout << "calcArea of Rectangle...";
-	//
+	return width*length;
 }
 
 double Rectangle::calcPerimiter() const {
 	std::cout << "calcPerimiter of Rectangle...";
-    //
+    return 2*(length+width);
 }
